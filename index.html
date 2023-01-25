@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Puanlama Sitesi</title>
+
+    <!--Bootstrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--Css-->
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-warning border-bottom border-dark fw-bolder">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Kategoriler
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-bolder" href="#">Ülkeler</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Türkiye Bölgeler</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Şehirler</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">İlçeler</a></li>
+                            </ul>
+                        </li>
+                        <form class="d-flex mb-2 mb-lg-0" role="search">
+                            <input class="form-control me-2 fw-bolder" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-secondary fw-bolder" type="submit">Ara</button>
+                        </form>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-dark text-light px-3 ms-3 dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                                Giriş
+                            </button>
+                            <div class="dropdown-menu">
+                                <form class="px-4 py-3">
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormEmail1" class="form-label">Kullanıcı Adı</label>
+                                        <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                            placeholder="Kullanıcı Adı">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormPassword1" class="form-label">Şifre</label>
+                                        <input type="password" class="form-control" id="exampleDropdownFormPassword1"
+                                            placeholder="Şifre">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                            <label class="form-check-label" for="dropdownCheck">
+                                                Beni Hatırla
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-dark">Giriş</button>
+                                </form>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="kaydol.html">Kaydol</a>
+                                <a class="dropdown-item" href="#">Şifreni mi unuttun? Tıklayın</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+
+        <!--Section-->
+        <div class="container">
+            <div class="row">
+                <!--Article-->
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Article End 1-->
+                
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-2 pe-3">
+                    <div class="row border bg-light rounded shadow">
+                        <div class="col-12 bg-info shadow-sm rounded-top text-center">
+                            <a href="ankara.html" class="text-decoration-none text-white fw-bolder fs-3">Ankara</a>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <a href="ankara.html" class="text-decoration-none">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <th>En-1</th>
+                                            <td>1311 Oy</td>
+                                            <td>346 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <th>En-2</th>
+                                            <td>111 Oy</td>
+                                            <td>35 Yorum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <th>En-3</th>
+                                            <td>131 Oy</td>
+                                            <td>13 Yorum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </a>
+                        </div>
+                        <div class="col-12 border bg-secondary rounded-bottom">
+                            <div class="row">
+                                <div class="col-6 text-white">Kullanılan Oy: 5354</div>
+                                <div class="col-6  d-flex justify-content-end"><span
+                                        style="color:yellow;">&starf;&starf;&starf;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Article End-->
+            </div>
+        </div>
+        <!--Section End-->
+
+        <!--Aside-->
+
+        <!--Aside End-->
+
+        <!--Footer-->
+        <div class="bg-warning text-light mt-2 border-top border-dark">
+            <div class="container">
+                <footer class="pt-3">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between">
+                        <p>&copy; 2023 Code-Camp. Tüm Hakları Saklıdır.</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <!--Footer End-->
+    </div>
+
+    <!--Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
